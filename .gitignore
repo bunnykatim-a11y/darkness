@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+
+# Production build output
+dist/
+
+# Vite temporary files & cache
+.vite/
+.env
+.env.local
+.DS_Store
