@@ -1,0 +1,14 @@
+{
+  "name": "light-vs-darkness",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite src --host --open",
+    "build": "vite build src",
+    "preview": "vite preview src"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}

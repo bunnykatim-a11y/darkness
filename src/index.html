@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description"
+        content="Light vs Darkness — An endless survival browser game. Keep your flashlight charged, collect batteries, and survive the encroaching darkness as long as you can.">
+    <title>Light vs Darkness</title>
+
+    <!-- Google Fonts: Orbitron for titles, Inter for body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <!-- Main game canvas — everything renders here -->
+    <canvas id="gameCanvas"></canvas>
+
+    <!-- Loading overlay — hidden once assets initialize -->
+    <div id="loading">
+        <div class="loader-ring">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <p>Initializing</p>
+    </div>
+
+    <!-- Entry-point ES6 module -->
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>
